@@ -26,5 +26,6 @@ public class Edificio {
     public Edificio(String nome, String città) {
         this.nome = nome;
         this.città = città;
+        this.postazioni = postazioni;
     }
 }

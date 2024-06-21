@@ -23,7 +23,7 @@ public class Utente {
     private String email;
 
     @OneToMany(mappedBy = "utente")
-    private List<Prenotazione> postazioni;
+    private List<Prenotazione> prenotazioni;
 
     public Utente(String nome, String cognome, String email) {
         this.nome = nome;
